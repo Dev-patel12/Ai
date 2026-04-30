@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "/(css|js|images|favicon.ico)(.*)",
-            "dest": "/$1$2"
+            "dest": "/public/$1$2"
         },
         {
             "src": "/(.*)",
